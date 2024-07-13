@@ -10,6 +10,6 @@ def get_data_augmented(flip, rotation, zoom):
     return data_augmentation
 
 
-data_augmentation = get_data_augmented(flip = config.model_config.flip, 
-                                       rotation = config.model_config.rotation, 
-                                       zoom = config.model_config.zoom)
+data_augmentation = get_data_augmented(flip = config.model_configs.flip, 
+                                       rotation = config.model_configs.rotation, 
+                                       zoom = config.model_configs.zoom)
